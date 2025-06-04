@@ -1,4 +1,4 @@
-全自动更新TS包名可自定义添加!（无UI）
+双规则全自动更新TS包名可自定义添加!（无UI）用户白名单+系统添加规则
 
 全自动更新Tricky_Store应用包名,可选择是否添加!,?或不添加以及开机是否修改tee_status为teeBroken=true或false
 
