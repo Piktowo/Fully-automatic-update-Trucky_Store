@@ -1,6 +1,6 @@
 id=Tricky_Store-xiaoyi
-name=Tricky_Store全自动更新包名列表无UI版
+name=Tricky_Store全自动更新包名列表双规则无UI版
 version=GitHub：@youyou20041
 versionCode=20250603
 author=酷安熠只狗
-description=已在GitHub开源.全自动更新应用包名,可选择是否添加!,?或不添加以及开机是否修改tee_status为teeBroken=true或false.此模块为非UI版，后续请在/data/adb/modules/Tricky_Store-xiaoyi/conf配置选项，或者等待WEBUI版更新使用WEBUI更新你的配置
+description=已在GitHub开源.全自动更新应用包名,按照系统添加规则和用户白名单双规则添加包名。可选择是否添加!,?或不添加以及开机是否修改tee_status为teeBroken=true或false.此模块为非UI版，后续请在/data/adb/modules/Tricky_Store-xiaoyi/conf配置选项，或者等待WEBUI版更新使用WEBUI更新你的配置
