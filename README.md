@@ -2,6 +2,8 @@
 
 全自动更新Tricky_Store应用包名,可选择是否添加!,?或不添加以及开机是否修改tee_status为teeBroken=true或false
 
+⚠️如果你给包名添加了!,请勿使用隐藏bl列表⚠️
+
 此模块为非UI版，后续请在/data/adb/modules/Tricky_Store-xiaoyi/conf配置选项，或者等待WEBUI版更新使用WEBUI更新你的配置
 ********************************************
 /data/adb/modules/Tricky_Store-xiaoyi/conf为配置文件夹，你可以在此配置mode.conf,tee.conf和白名单，添加进白名单会实时删除白名单内的包名，如果你的target.txt内包名已经添加过了，你可以删除其中全部包名，1分钟内模块会按照规则自动更新包名到target.txt
