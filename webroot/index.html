@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fully-automatic-update-Trucky_Store byxiaoyi</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/mmrl/insets.css" />
+    <script type="module" crossorigin src="scripts.js"></script>
+</head>
+<body>
+    <div class="content">
+        <div class="header">
+            <h3>
+                TS自动更新包名配置
+                <span id="version-text"></span>
+            </h3>
+        </div>
+
+        <div class="button-box">
+
+            <div class="toggle-list ripple-element" id="mode-button">
+                <span class="toggle-text">加载配置中...</span>
+            </div>
+
+            <div class="toggle-list ripple-element" id="auto-tee-toggle-container">
+                <span class="toggle-text">开机自动修改 tee_status</span>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="toggle-auto-tee">
+                    <span class="slider round" id="tee-slider"></span>
+                </label>
+            </div>
+
+            <div class="toggle-list ripple-element" id="save-button">
+                <span class="toggle-text">修改以上选项请点击→→保存配置</span>
+            </div>
+
+            <div class="toggle-list ripple-element" id="input-container">
+                <span class="toggle-text">添加白名单</span>
+                <div class="input-wrapper">
+                    <input 
+                        type="text" 
+                        id="whitelist-input" 
+                        placeholder="输入包名，多个用逗号分隔"
+                        class="settings-input"
+                    >
+                    <button id="save-whitelist" class="save-btn">保存</button>
+                </div>
+            </div>
+
+            <div class="toggle-list ripple-element" id="input-container1">
+                <span class="toggle-text">修改包名更新频率, 默认一分钟一次</span>
+                <div class="input-wrapper">
+                    <input 
+                        type="text" 
+                        id="cron-input" 
+                        placeholder="输入cron表达式,不懂请问ai"
+                        class="settings-input"
+                    >
+                    <button id="save-cron" class="save-btn">修改</button>
+                    <button id="help-cron" class="help-btn">?</button>
+                </div>
+            </div>
+
+            <div class="toggle-list ripple-element" id="shmindsh">
+                <span class="toggle-text">立即更新包名并删除白名单内容</span>
+            </div>
+
+            <div class="toggle-list ripple-element" id="explain">
+                <span class="toggle-text">by酷安熠只狗</span>
+            </div>
+
+        </div>
+
+        <div class="output-terminal">
+            <div class="output-terminal-header">
+                <span>output</span>
+                <div class="clear-terminal">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="14px" viewBox="0 -960 960 960" width="14px" fill="#ccc"><path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z" /></svg>
+                    <span class="clear-terminal-text">清除内容</span>
+                </div>
+            </div>
+            <div class="output-terminal-content"></div>
+        </div>
+    </div>
+</body>
+</html>
