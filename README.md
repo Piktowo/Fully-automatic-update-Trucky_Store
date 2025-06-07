@@ -2,7 +2,7 @@
 
 全自动更新Tricky_Store应用包名,可选择是否添加!,?或不添加以及开机是否修改tee_status为teeBroken=true或false
 
-⚠️如果你给包名添加了!,请勿使用隐藏bl列表⚠️
+⚠️如果你给包名添加了?或!,请勿使用隐藏bl列表,如果你打开了隐藏bl列表，你添加了!?的包名将会被删除⚠️
 
 此模块为非UI版，后续请在/data/adb/modules/Tricky_Store-xiaoyi/conf配置选项，或者等待WEBUI版更新使用WEBUI更新你的配置
 ********************************************
