@@ -1,6 +1,6 @@
 id=Tricky_Store-xiaoyi
 name=Tricky_Store全自动更新包名列表UI版
-version=v2.0
+version=v2.1
 versionCode=20250606
 author=酷安熠只狗GitHub:@youyou20041
 description=已在GitHub开源.全自动更新应用包名,可选择是否添加!,?或不添加以及开机是否修改tee_status为teeBroken=true或false.你可以在/data/adb/modules/Tricky_Store-xiaoyi/conf配置选项，或者在webuui中修改配置
