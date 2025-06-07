@@ -1,10 +1,10 @@
-双规则全自动更新TS包名可自定义添加!（无UI）用户白名单+系统添加规则
+双规则全自动更新TS包名可自定义添加! 用户白名单+系统添加规则
 
 全自动更新Tricky_Store应用包名,可选择是否添加!,?或不添加以及开机是否修改tee_status为teeBroken=true或false
-
+********************************************
 ⚠️如果你给包名添加了?或!,请勿使用隐藏bl列表,如果你打开了隐藏bl列表，你添加了!?的包名将会被删除⚠️
-
-此模块为非UI版，后续请在/data/adb/modules/Tricky_Store-xiaoyi/conf配置选项，或者等待WEBUI版更新使用WEBUI更新你的配置
+********************************************
+此模块为UI版，你可以在webUI中更新你的配置。或者请在/data/adb/modules/Tricky_Store-xiaoyi/conf配置选项
 ********************************************
 /data/adb/modules/Tricky_Store-xiaoyi/conf为配置文件夹，你可以在此配置mode.conf,tee.conf和白名单，添加进白名单会实时删除白名单内的包名，如果你的target.txt内包名已经添加过了，你可以删除其中全部包名，1分钟内模块会按照规则自动更新包名到target.txt
 
@@ -27,7 +27,7 @@ tee_status内容为teeBroken=true
 ********************************************
 /data/adb/modules/Tricky_Store-xiaoyi/cron/root
 此文件中的内容为
-* * * * * sh /data/adb/modules/Tricky_Store-xiaoyi//xiaoyi/yizdog.sh
+* * * * * sh /data/adb/modules/Tricky_Store-xiaoyi/xiaoyi/yizdog.sh
 
 前面的 * * * * * 部分表示执行时间，按顺序解释如下：
 
